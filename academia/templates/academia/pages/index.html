@@ -1,0 +1,283 @@
+{% include 'academia/partials/head.html' %}
+{% load static %}
+
+<body>
+    
+    <section>
+        {% include 'academia/partials/header.html' %}
+    </section>
+     
+    <section>
+        {% include 'academia/partials/navbar.html' %}
+    </section>
+
+    <section class="oculte-mobile">
+        <div class="banner-conteiner">
+            <div class="banner-slides">
+                <div class="banner-control">
+                   
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+             
+                    <div class="banner-images first">
+                        <img src=" {% static 'academia/img/img_07.webp' %} "alt="">
+                    </div>
+                     <div class="banner-images">
+                        <img src=" {% static 'academia/img/img_06.webp' %} "alt="">
+                    </div>
+                    <div class="banner-images">
+                        <img id="ajuste1" src=" {% static 'academia/img/img_08.webp' %} " alt="">
+                    </div>
+                     <div class="banner-images">
+                        <img id="ajuste2" src=" {% static 'academia/img/img_02.webp' %} "alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="banner-auto-navigation">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <div class="banner-manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+
+    <section >
+        <div class="news-box content-mobile">
+
+            <div class="tittle-mobile view-mobile" >
+                <h2>Notícias</h2>
+            </div>
+
+            <div class="news-itens size-mobile">
+
+                <div class="news conf-mobile" >
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_01.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>20 de agosto de 2023 </h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="news conf-mobile" >
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_06.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>20 de julho de 2023 </h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news conf-mobile ">
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_10.webp' %}"
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>04 de junho de 2023</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="news conf-mobile" id="oculte" >
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_11.webp' %}"
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>03 de junho de 2023</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news conf-mobile" id="oculte">
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_12.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>20 de maio de 2023 </h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" news conf-mobile" id="oculte">
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_13.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>18 de dezembro de 2022 </h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" news conf-mobile" id="oculte" >
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_14.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2> 16 de dezembro de 2023 </h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news conf-mobile" id="oculte" >
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_15.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>27 de novembro de 2022</h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news conf-mobile" id="oculte" >
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_16.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>26 de novembro de 2022 </h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news conf-mobile" id="oculte" >
+                    <div class=" news news-list">
+                        <div class="news-img">
+                            <img src=" {% static 'academia/img/img_17.webp' %} "
+                                alt="">
+                        </div>
+                        <div class="news-tittle">
+                            <h2>12 de abril de 2022 </h2>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="plus-link view-mobile ">
+                <a href="#"><i class="fa-solid fa-circle-plus"></i> Veja mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="athletes">
+            <div class="athletes-text mobile-text" >
+                <div class="athletes-text-block color-back">
+                    <h2>Top atletas</h2>
+                    <b>Nossos estrelas brilham primeiro por aqui</b>
+                    <a href="#">Veja todos os atletas.</a>
+                </div>
+            </div>
+
+            <div class="athletes-content mobile">
+                <div class="athetes-conteiner">
+                    <div class="top-athletes">
+                        <div class="highlight-athletes">
+                            <div class="athletes-img">
+                                <img src=" {% static 'academia/img/img_10.webp' %} " alt="">
+                            </div>
+
+                            <div class=" athletes-name ">
+                                <h3>Ana Paula Araujo</h3>
+                                <p> 1º Lugar feminino brasileiro </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="athetes-conteiner" id="oculte" >
+                    <div class="top-athletes">
+                        <div class="highlight-athletes">
+                            <div class="athletes-img">
+                                <img src=" {% static 'academia/img/img_16.webp' %} " alt="">
+                            </div>
+
+                            <div class=" athletes-name ">
+                                <h3>Rafael Costa</h3>
+                                <p> 1º Lugar masculino brasileiro </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="athetes-conteiner" id="oculte" >
+                    <div class="top-athletes">
+                        <div class="highlight-athletes">
+                            <div class="athletes-img">
+                                <img src=" {% static 'academia/img/img_15.webp' %} " alt="">
+                            </div>
+
+                            <div class=" athletes-name ">
+                                <h3>Gabriela Silva</h3>
+                                <p> 2º Lugar feminino brasileiro </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="athetes-conteiner" id="oculte" >
+                    <div class="top-athletes">
+                        <div class="highlight-athletes">
+                            <div class="athletes-img">
+                                <img src=" {% static 'academia/img/img_18.webp' %} " alt="">
+                            </div>
+
+                            <div class=" athletes-name" id="oculte">
+                                <h3>Gustavo Marques</h3>
+                                <p> 2º Lugar masculino brasileiro </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <section>
+            {% include 'academia/partials/footer.html' %}
+        </section>
+    </footer>
+
+    <script src=" {% static '/academia/js/scripts.js' %}"></script>
+</body>
+</html>

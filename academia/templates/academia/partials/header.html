@@ -1,0 +1,119 @@
+{% load static %}
+
+<header >
+    <div class="drop-conteiner">
+        <div class="drop-conteiner">
+            <div class="drop-img-aux ">
+                <a href="academia/"> 
+                 <img class="drop-img-conf" src=" {% static 'academia/img/logo.png' %}" alt=" Imagem contendo a logo da academia">
+                </a> 
+            </div>
+        </div>
+        <div class="dropdown-iten">
+            <div class="dropdown">
+                <div class="oculte-mobile " onclick="openNav()" >
+                    <button >Menu</button>
+                </div>
+                <div onclick="openNavMobile()">
+                    <a href="javaScript:void(0)" class="close-btn view-mobile" onclick="closeNavMobile()"><i class="fa-solid fa-bars"></i></a>
+                </div>
+            </div>
+
+            <div class="dropdown oculte-mobile"> 
+                <button class="dropbtn">Quem somos</button>
+                <div class="dropdown-content">
+                    <div class="dropdown-inline">
+                        <div class="space space-btn">
+                            <h3>Apresentação </h3>
+                            <a href="#">Apresentação</a>
+                            <a href="#">Histórico</a>
+                            <a href="#">Propósito</a>
+                            <a href="#">Visão</a>
+                            <a href="#">Premios</a>
+                            <a href="#">Nossas unidades</a>
+                        </div>
+    
+                        <div class="space space-btn">
+                            <h3>Regimentos</h3>
+                            <a href="#">Estatuto academia</a>
+                            <a href="#">Código de ética</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="dropdown oculte-mobile ">
+                <button class="dropbtn">O que fazemos</button>
+                <div class="dropdown-content">
+                    <div class="space space-btn">
+                        <a href="#">Progamas e projetos</a>
+                        <a href="#">Jornal </a>
+                        <a href="#">Relatório de atividades</a>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="dropdown oculte-mobile">
+                <button class="dropbtn">Notícias</button>
+                <div class="dropdown-content centerdrop">
+                    <div class="dropdown-inline  ">
+                        <div class="space space-btn">
+                            <h3>Nacional </h3>
+                            <a href="#">Campeonato brasileiro</a>
+                            <a href="#">Copa do Brasil</a>
+                        </div>
+    
+                        <div class="space space-btn">
+                            <h3>Regional</h3>
+                            <a href="#">1ª Etapa</a>
+                            <a href="#">2ª Etapa</a>
+                            <a href="#">3ª Etapa</a>
+                        </div>
+                        
+                        <div class="space space-btn">
+                            <h3>Estadual</h3>
+                            <a href="#">1ª Etapa</a>
+                            <a href="#">2ª Etapa</a>
+                            <a href="#">3ª Etapa</a>
+                        </div>
+    
+
+                    </div>
+                </div>
+            </div>
+    
+            <div class="dropdown oculte-mobile">
+                <button class="dropbtn">Karatê</button>
+                <div class="dropdown-content centerdrop">
+                    <div class="dropdown-inline">
+                        <div class="space space-btn">
+                            <h3>Cadastro </h3>
+                            <a href="#">Professores</a>
+                            <a href="#">Alunos</a>
+                            <a href="#">Equipes</a>
+                        </div>
+    
+                        <div class="space space-btn">
+                            <h3>Calendário</h3>
+                            <a href="#">Campeonatos</a>
+                            <a href="#">Exames de Faixas</a>
+                            <a href="#">Ranking</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="dropdown oculte-mobile">
+                <button class="dropbtn">Envolva-se</button>
+                <div class="dropdown-content">
+                    <a href="#">Seja um patrocinador</a>
+                    <a href="#">Apoie um atleta</a>
+                    <a href="#">Contatos</a>
+                </div>  
+            </div> 
+        </div>
+
+    </div>
+</header>
+
+<script src=" {% static '/academia/js/scripts.js' %} "></script>
